@@ -4,16 +4,25 @@
 int main()
 {
     // Complete the homework problems here
+    int user_input == 0;
+    while (user_input <= 3 && >= 1)
+    {
+        std::cout << "Welcome to MoreLoops! Choose an option below by selecting a number from 1-4.\n"
+                << "1. Pick a number from 1-100\n"
+                << "2. Guess my favorite color\n"
+                << "3. Calculate a sum\n\n> ";
+
+        std::cin >> user_input;
+
+        // Problem 1:  Prompt the user for a number from 1 to 100
+        
     
-    // Problem 1
+        // Problem 2: Prompt the user to guess your favorite color
     
     
-    // Problem 2
-    
-    
-    // Problem 3
-    
-    
-    
+        // Problem 3: Ask the user how many numbers for which they want to calculate the sum
+
+    }
+   
     return 0;
 }
